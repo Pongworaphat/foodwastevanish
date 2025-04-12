@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.foodwastevanish.ui.Home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_donate"
+        android:name="com.example.foodwastevanish.ui.Donate.DonateFragment"
+        android:label="Donate"
+        tools:layout="@layout/fragment_donate" />
+
+    <fragment
+        android:id="@+id/navigation_inbox"
+        android:name="com.example.foodwastevanish.ui.Inbox.InboxFragment"
+        android:label="Inbox"
+        tools:layout="@layout/fragment_inbox" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.foodwastevanish.ui.Notifications.NotificationsFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.example.foodwastevanish.ui.More.MoreFragment"
+        android:label="More"
+        tools:layout="@layout/fragment_more" />
+</navigation>

@@ -6,26 +6,26 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home"
-        android:title="HOME"/>
+        android:title="Home"/>
 
     <item
-        android:id="@+id/navigation_exchange"
-        android:icon="@drawable/ic_home"
-        android:title="A"/>
+        android:id="@+id/navigation_donate"
+        android:icon="@drawable/ic_donate"
+        android:title="Donate"/>
 
     <item
-        android:id="@+id/navigation_item"
-        android:icon="@drawable/ic_home"
-        android:title="B"/>
+        android:id="@+id/navigation_inbox"
+        android:icon="@drawable/ic_inbox"
+        android:title="Inbox"/>
 
     <item
-        android:id="@+id/navigation_activity"
-        android:icon="@drawable/ic_home"
-        android:title="C"/>
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notifications"/>
 
     <item
         android:id="@+id/navigation_more"
         android:icon="@drawable/ic_more"
-        android:title="MORE"/>
+        android:title="More"/>
 
 </menu>
