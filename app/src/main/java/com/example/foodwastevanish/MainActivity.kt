@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
         companion object {
             fun <LayoutInflater> inflate(layoutInflater: LayoutInflater): ActivityMainBinding {
 
+                return TODO("Provide the return value")
             }
         }
 
